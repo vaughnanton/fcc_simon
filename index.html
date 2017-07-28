@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://tonejs.github.io/build/Tone.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="game">
+      <div class="square">
+        <button class="colors" data-tile="1" id="green" OnClick="checkInput(1)"></button>
+        <button class="colors" data-tile="2" id="red" OnClick="checkInput(2)"></button>
+        <button class="colors" data-tile="3" id="yellow" OnClick="checkInput(3)"></button>
+        <button class="colors" data-tile="4" id="blue" OnClick="checkInput(4)"></button>
+    </div>
+      <div class="userSystem">
+        <h1>- Simon -</h1>
+        <div id="display" class="display">
+        <span class="counter" id="counter">0</span>
+        </div>
+        <button class="userBtn" OnClick="startGame()" id="start">Start</button>
+         <button class="userBtn" OnClick="strictMode()" id="strict">Strict</button>
+      </div>
+      </div>
+    </body>
+  </html>

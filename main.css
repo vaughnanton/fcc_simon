@@ -1,0 +1,93 @@
+body {
+  background:#b7b7b7;
+  color:#b7b7b7;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
+h1 {
+  color:black;
+  font-size:2.5em;
+  margin-bottom:0;
+}
+
+.game {
+  background:white;
+  border-radius:150px;
+  width:600px;
+  height:300px;
+  margin:20px auto;
+}
+
+.square {
+  margin-left:80px;
+}
+
+.userSystem {
+  text-align:center;
+  margin-top:10px;
+}
+
+.userBtn {
+  font-family: 'Shadows Into Light Two', cursive, Helvetica, Times New Roman;
+  font-size:.8em;
+  background:none;
+  border-radius:10%;
+}
+
+.userBtn:hover {
+  color:white;
+  background-color:#b7b7b7;
+}
+
+.counter{
+  font-weight:bold;
+}
+
+.colors {
+  border-radius:40%;
+  margin-top:50px;
+}
+
+.colors:hover {
+  opacity:.75;
+}
+
+#red {
+  background-color:red;
+  width:100px;
+  height:100px;
+}
+
+#blue {
+  background-color:blue;
+  width:100px;
+  height:100px;
+}
+
+#yellow {
+  background-color:yellow;
+  width:100px;
+  height:100px;
+}
+
+#green {
+  background-color:green;
+  width:100px;
+  height:100px;
+}
+
+.lighten-green {
+  opacity: .4;
+}
+
+.lighten-red {
+  opacity:.4;
+}
+
+.lighten-yellow {
+  opacity:.4;
+    }
+
+.lighten-blue {
+  opacity:.4;
+}
